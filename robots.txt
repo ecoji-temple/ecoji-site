@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ecoji.org/sitemap.xml
