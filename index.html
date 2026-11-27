@@ -79,6 +79,21 @@ a{color:#C93E22}a:hover{color:#A8331B}
     </div>
   </section>
 
+  <!-- 日めくり法語バナー -->
+  <section id="hogo" aria-label="今日の法語" style="padding: 48px 20px 0">
+    <a href="https://ecoji-temple.github.io/hogo/" target="_blank" rel="noopener" style="position: relative; overflow: hidden; max-width: 880px; margin: 0 auto; display: flex; align-items: center; gap: 22px; padding: 26px 26px; border-radius: 14px; background: radial-gradient(120% 140% at 0% 100%, #4A2E26 0%, #2E2320 55%, #241B19 100%); text-decoration: none; color: #FFF8F2; box-shadow: 0 10px 26px rgba(46, 35, 32, 0.28)">
+      <svg aria-hidden="true" viewBox="540 0 320 200" preserveAspectRatio="xMaxYMin slice" style="position: absolute; top: 0; right: 0; width: 46%; max-width: 320px; height: 100%; pointer-events: none"><path d="M560 -5 C 552 52.5, 570 105.0, 556 150" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.32"/><path d="M610 -5 C 602 42.0, 620 84.0, 606 120" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.24"/><path d="M660 -5 C 652 61.24999999999999, 670 122.49999999999999, 656 175" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.35"/><path d="M705 -5 C 697 47.25, 715 94.5, 701 135" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.28"/><path d="M750 -5 C 742 57.74999999999999, 760 115.49999999999999, 746 165" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.33"/><path d="M800 -5 C 792 38.5, 810 77.0, 796 110" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.24"/><path d="M840 -5 C 832 52.5, 850 105.0, 836 150" fill="none" stroke="#C9A46A" stroke-width="1.2" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.30"/></svg>
+      <span aria-hidden="true" style="position: absolute; inset: 8px; border: 1px solid rgba(201, 164, 106, 0.45); border-radius: 9px; pointer-events: none"></span>
+      <span style="position: relative; writing-mode: vertical-rl; font-family: 'Shippori Mincho', serif; font-size: 26px; font-weight: 700; letter-spacing: 0.22em; line-height: 1; padding: 4px 0 4px 18px; border-right: 1px solid rgba(201, 164, 106, 0.6)">今日の法語</span>
+      <span style="position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 10px">
+        <span id="hogo-date" style="font-family: 'Shippori Mincho', serif; font-size: 14px; letter-spacing: 0.2em; color: #C9A46A">日めくり法語</span>
+        <span style="font-family: 'Shippori Mincho', serif; font-size: 18px; line-height: 1.7">毎日ひとつ、<br>住職が綴る言葉</span>
+        <span style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1px solid #C9A46A; color: #F3DFB8; font-size: 15px; font-weight: 700; letter-spacing: 0.08em">ひらく →</span>
+      </span>
+    </a>
+    <script>(function(){var e=document.getElementById("hogo-date");if(!e)return;var k=["〇","一","二","三","四","五","六","七","八","九"];function n(x){if(x<10)return k[x];var t=Math.floor(x/10),o=x%10;return (t>1?k[t]:"")+"十"+(o?k[o]:"");}var d=new Date();e.textContent=n(d.getMonth()+1)+"月"+n(d.getDate())+"日";})();</script>
+  </section>
+
   <!-- 紹介動画 -->
   <section id="movie" aria-labelledby="movie-h" style="padding: 48px 20px 8px">
     <div style="max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px">
